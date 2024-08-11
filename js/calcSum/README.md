@@ -11,5 +11,5 @@
 
 #### Example
 
-- input: 3, 3
-- input: 6
+- input: 4, 3
+- conclusion: 7
