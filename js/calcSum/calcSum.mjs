@@ -1,8 +1,7 @@
 
 /**
  * @function calcSum
- * @param  {number} num1
- * @param  {number} num2
+ * @param  {...number} args(two numbers to add)
  * @throws{Error} Error: both arguments must be numbers
  * @throws{Error} Error: two arguments are required
  * @returns {number}
