@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "Project for js tasks",
   "devDependencies": {
+    "eslint": "^8.57.0",
     "typescript": "^5.5.4"
   }
 }
