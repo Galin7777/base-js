@@ -1,4 +1,3 @@
-
 /**
  * @function calcSum
  * @param {number} num1
