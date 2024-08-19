@@ -1,12 +1,11 @@
 /**
- *@function voteCount
- * @param {object} nums
- * @param {number}  nums voteFor
- * @param {number}  nums votesAgainst
+ * @typedef {import('./types').Votes} MyVotes
+ */
+
+/**
+ * @function getVoteCount
+ * @param {MyVotes} votes
  * @returns {number}
  */
 
-export const voteCount = (nums) => {
-  const { voteFor, votesAgainst } = nums;
-  return (voteFor - votesAgainst);
-};
+export const getVoteCount = (votes) => votes.upvotes - votes.downvotes;
